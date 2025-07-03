@@ -16,7 +16,7 @@ En la primera parte del proyecto se trabajó con un conjunto de datos de reseña
 
 ## Proyecto 2: Clasificador de Imágenes con Deep Learning
 
-El segundo y más extenso proyecto consistió en desarrollar una **red neuronal convolucional (CNN)** para clasificar imágenes de **perros y gatos**.
+El segundo y más extenso proyecto consistió en desarrollar un modelo de redes neuronales que logre  clasificar imágenes de **perros y gatos**.
 
 ### Objetivo
 
@@ -28,7 +28,7 @@ Se utilizó un conjunto de imágenes redimensionadas a 150x150 pixeles y convert
 
 ### Arquitectura del Modelo
 
-El modelo CNN fue construido con `Keras` y `TensorFlow`, incluyendo:
+El modelo fue construido con `Keras` y `TensorFlow`, incluyendo:
 
 - Varias capas `Conv2D` con `ReLU` y `MaxPooling`.
 - `BatchNormalization` y `Dropout` para combatir el sobreajuste.
@@ -43,12 +43,12 @@ Se aplicó `ImageDataGenerator` para generar nuevas imágenes de entrenamiento m
 Tras la optimización y aumento de datos:
 
 - **Precisión (Accuracy):** `93%`
-- **Precision / Recall / F1-score (ambas clases):** `0.91` | 
+- **Precision / Recall / F1-score (ambas clases):** `0.90` | 
 - **Balance perfecto** entre gatos y perros, sin sesgo hacia una clase.
 
 ### Conclusión
 
-> El modelo CNN superó ampliamente a una clasificación aleatoria (≈50%) y alcanzó un rendimiento robusto y estable. La técnica de data augmentation fue determinante para mejorar el desempeño y reducir el sobreajuste.
+> El modelo superó ampliamente a una clasificación aleatoria (≈50%) y alcanzó un rendimiento robusto y estable. La técnica de data augmentation fue determinante para mejorar el desempeño y reducir el sobreajuste.
 
 ---
 
