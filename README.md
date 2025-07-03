@@ -43,7 +43,7 @@ Se aplicó `ImageDataGenerator` para generar nuevas imágenes de entrenamiento m
 Tras la optimización y aumento de datos:
 
 - **Precisión (Accuracy):** `93%`
-- **Precision / Recall / F1-score (ambas clases):** `0.90` | 
+- **Precision / Recall / F1-score (ambas clases):** `0.92` | 
 - **Balance perfecto** entre gatos y perros, sin sesgo hacia una clase.
 
 ### Conclusión
