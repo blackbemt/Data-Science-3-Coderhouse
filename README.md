@@ -48,7 +48,7 @@ Tras la optimización y aumento de datos:
 
 ### Conclusión
 
-> El modelo superó ampliamente a una clasificación aleatoria (≈50%) y alcanzó un rendimiento robusto y estable. La técnica de data augmentation fue determinante para mejorar el desempeño y reducir el sobreajuste.
+> El modelo superó ampliamente a una clasificación aleatoria (≈50%) y alcanzó un rendimiento robusto y estable. La técnica de data augmentation fue determinante para mejorar el desempeño sin causar sobreajuste.
 
 ---
 
